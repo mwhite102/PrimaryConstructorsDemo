@@ -19,7 +19,7 @@ The syntax of Primary Constructors was first introduced with Records in C# 9 and
 Simple ```record``` example
 
 ```csharp
-# reference type record declaration
+// reference type record declaration
 public record Person(string FirstName, string LastName);
 ```
 
@@ -37,7 +37,7 @@ C# 10 introduced for value types.
 Simple ```record struct``` example
 
 ```csharp
-# value type struct
+// value type struct
 public readonly Point(double X, double Y, double Z);
 ```
 
